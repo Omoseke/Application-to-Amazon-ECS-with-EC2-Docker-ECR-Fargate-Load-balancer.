@@ -1,0 +1,28 @@
+ec2-user@ip address
+
+
+sudo su
+
+yum update -y
+
+yum install docker
+
+systemctl start docker    
+
+systemctl status docker
+
+mkdir project
+
+cd project
+
+vim Dockerfile
+
+vim index.html
+
+docker build -t project-name .
+
+docker images
+
+docker run -d -p 80:80 --name project-container project-image
+
+docker ps
