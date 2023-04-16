@@ -23,6 +23,6 @@ docker build -t project-name .
 
 docker images
 
-docker run -d -p 80:80 --name project-container project-image
+docker run -d -p 80:80 --name project-container project-name
 
 docker ps
