@@ -3,7 +3,4 @@ This project describes how to deploy a web application to Amazon Elastic Contain
 The following are requirements to get started with the project. 
 Create an AWS account.
 PuTTy: Download and install puTTy.
-cd terraform
-terraform init
-terraform plan -var-file=terraform.tfvars
-terraform apply -var-file=terraform.tfvars
+
